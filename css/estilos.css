@@ -10,10 +10,33 @@ body{
 }
 #container{
     width: 70%;
-    padding: 1em;
     border: 1px solid #ddd;
     margin: 0 auto;
 }
-#container h1{
+<<<<<<< HEAD
+#post h1{
+=======
+
+#post h1{
+>>>>>>> cabecera
     font-size: 24px;
+    background: pink;
+    color: darkmagenta;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 43px -4px rgba(237,109,205,0.76);
+    -moz-box-shadow: 10px 10px 43px -4px rgba(237,109,205,0.76);
+    box-shadow: 10px 10px 43px -4px rgba(237,109,205,0.76);
+}
+
+#post h1 span{
+    font-size: 50px;
+}
+
+#post p{
+    text-align: left;
+    color: navy;
+    padding: 25px;
+    font-size: 18px;
 }
